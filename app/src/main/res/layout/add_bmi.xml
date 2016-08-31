@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="時間"
+            android:id="@+id/button_time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_time"
+            android:layout_weight="0.65"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="身高:"
+            android:id="@+id/textView_height"
+            android:textSize="30dp"
+            android:layout_weight="0.03" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="0.60" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="體重:"
+            android:id="@+id/textView_weight"
+            android:textSize="30dp"
+            android:layout_weight="0.03" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_weight="0.60" />
+    </LinearLayout>
+</LinearLayout>

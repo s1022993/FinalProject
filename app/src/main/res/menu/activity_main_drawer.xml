@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_walk"
+            android:icon="@drawable/ic_directions_walk_white_24dp"
+            android:title="WALK" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_whatshot_white_24dp"
+            android:title="BMI" />
+    </group>
+
+    <item android:title="設定">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="設定" />
+        </menu>
+    </item>
+
+</menu>
